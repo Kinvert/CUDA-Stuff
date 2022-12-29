@@ -1,5 +1,7 @@
 # Gaussian Blur
 
+**Written by ChatGPT**
+
 Gaussian blur is a popular image processing technique used to smooth images and reduce noise. It works by applying a convolution operation to the image, using a kernel (also known as a filter) that is designed to blur the image.
 
 The kernel is typically a small matrix of weights, often with an odd number of rows and columns (e.g. 3x3, 5x5, etc.). The weights are chosen such that the kernel has a Gaussian distribution, which means that values near the center of the kernel have a higher weight than values farther away from the center.
