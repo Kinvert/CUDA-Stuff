@@ -5,8 +5,9 @@ Here is the initial outline:
 
 - Overall CUDA Lessons / Explanations
   - The goal is Installation -> Hello World -> MNIST -> More
-- Computer Vision
+- [Computer Vision](https://github.com/Kinvert/CUDA-Stuff/tree/master/Computer-Vision)
   - Debayering
+  - [Gaussian Blur](https://github.com/Kinvert/CUDA-Stuff/tree/master/Computer-Vision/Gaussian-Blur)
   - Image Denoising
   - Image Enhancement
   - Image Restoration
