@@ -29,7 +29,10 @@ Here is the initial outline:
   - Neural Network Training and Inference
   - Data Augmentation
   - Feature Extraction
-- Math
+- [Math](https://github.com/Kinvert/CUDA-Stuff/tree/master/Math)
+  - Calculus 1
+  - [Calculus 2](https://github.com/Kinvert/CUDA-Stuff/tree/master/Math/Calculus-2)
+  - Calculus 3
   - [Matrix Operations](https://github.com/Kinvert/CUDA-Stuff/tree/master/ChatGPT-CUDA_Lessons/060-Matrix-Operations)
     - [Matrix Addition](https://github.com/Kinvert/CUDA-Stuff/tree/master/ChatGPT-CUDA_Lessons/060-Matrix-Operations/061-Matrix-Addition)
     - [Matrix Multiplications](https://github.com/Kinvert/CUDA-Stuff/tree/master/ChatGPT-CUDA_Lessons/060-Matrix-Operations/066-Matrix-Multiplication)
