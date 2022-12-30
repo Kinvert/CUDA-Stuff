@@ -7,7 +7,7 @@ __global__ void integrateKernel(double a, double b, int n, double *sum) {
   if (tid < n) {
     double x = a + dx * tid;
     double funcVal = x * x; // The function to numerically integrate
-    sum[gid] = funcVal * dx;
+    sum[tid] = funcVal * dx;
   }
   __syncthreads();
 }
@@ -15,7 +15,7 @@ __global__ void integrateKernel(double a, double b, int n, double *sum) {
 int main() {
   double a = 0.0; // Lower limit of integration
   double b = 1.0; // Upper limit of integration
-  int n = 100; // Number of intervals
+  int n = 1000; // Number of intervals
 
   // Allocate memory
   double *h_sum = new double[n];

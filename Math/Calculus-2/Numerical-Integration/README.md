@@ -2,6 +2,10 @@
 
 **Note: This was written by ChatGPT**
 
+## YouTube Video
+
+[![Discussion Video](https://img.youtube.com/vi/OctUcZ6Bulo/0.jpg)](https://www.youtube.com/watch?v=OctUcZ6Bulo "Discussion Video")
+
 ## Introduction
 
 Numerical integration is a method for approximating the value of a definite integral. A definite integral is a mathematical operation that involves the integration (i.e., summation) of a function over a given range. Numerical integration is often used when it is not possible or practical to obtain an exact solution to an integral using analytical methods.
@@ -54,20 +58,18 @@ This program approximates the definite integral of the function f(x) between the
 Here is a breakdown of the code, with explanations for each code snippet:
 
 ```cpp
-#include <iostream>
-#include <cmath>
-#include <cuda_runtime.h>
+#include <stdio.h>
 ```
 
 These lines include the necessary header files for the program. The iostream header file is used for input/output operations, the cmath header file is used for mathematical functions, and the cuda_runtime.h header file is used for CUDA runtime functions.
 
 ```cpp
 __global__ void integrateKernel(double a, double b, int n, double *sum) {
-  int gid = blockIdx.x * blockDim.x + threadIdx.x;
-  double h = (b - a) / n;
-  if (gid < n) {
-    double x = a + h * gid;
-    sum[gid] = x * x * h;
+  int tid = blockIdx.x * blockDim.x + threadIdx.x;
+  double dx = (b - a) / n;
+  if (tid < n) {
+    double x = a + dx * tid;
+    sum[tid] = x * x * dx;
   }
   
   __syncthreads();
@@ -88,13 +90,16 @@ int main() {
   double b = 1.0; // Upper limit of integration
   int n = 100; // Number of intervals
 
+  // Allocate memory
+  double *h_sum = new double[n];
   double *d_sum;
-  cudaMallocManaged((void **)&d_sum, n * sizeof(double));
+  cudaMalloc(&d_sum, n * sizeof(double));
+  cudaMemcpy(d_sum, h_sum, n * sizeof(double), cudaMemcpyHostToDevice);
 ```
 
 In the main function, the lower and upper limits of integration, a and b, and the number of intervals, n, are initialized.
 
-The cudaMallocManaged function is then used to allocate managed memory on the device for the result of the integration. Managed memory is a type of memory that is automatically managed by the CUDA runtime and can be accessed by both the host (CPU) and the device (GPU).
+The cudaMalloc function is then used to allocate memory on the device for the result of the integration.
 
 ```cpp
   integrateKernel<<<1, n>>>(a, b, n, d_sum);
@@ -112,10 +117,11 @@ The cudaMemcpy function is then used to copy the device memory d_sum back to hos
   for (int i = 0; i < n; i++) {
     sum += d_sum[i];
   }
+  
+  printf("The integral is: %f\n", sum);
 
   cudaFree(d_sum);
 
-  std::cout << "The integral is: " << sum << std::endl;
   return 0;
 }
 ```
@@ -124,4 +130,4 @@ Finally, the host memory array h_sum is iterated over, and the contributions of 
 
 The device memory is freed using the cudaFree function. This is an important step to ensure that the device memory is properly deallocated and is not left hanging.
 
-Finally, the result of the integration is printed to the console using the std::cout function, and the main function returns with a value of 0.
+Finally, the result of the integration is printed to the console using the printf function, and the main function returns with a value of 0.
