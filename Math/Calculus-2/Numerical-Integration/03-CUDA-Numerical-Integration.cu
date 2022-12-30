@@ -1,16 +1,14 @@
 // ChatGPT wasn't really working here so I had to write this
-#include <iostream>
-#include <cmath>
-#include <cuda_runtime.h>
+#include <stdio.h>
 
 __global__ void integrateKernel(double a, double b, int n, double *sum) {
-  int gid = blockIdx.x * blockDim.x + threadIdx.x;
-  double h = (b - a) / n;
-  if (gid < n) {
-    double x = a + h * gid;
-    sum[gid] = x * x * h;
+  int tid = blockIdx.x * blockDim.x + threadIdx.x;
+  double dx = (b - a) / n;
+  if (tid < n) {
+    double x = a + dx * tid;
+    double funcVal = x * x; // The function to numerically integrate
+    sum[gid] = funcVal * dx;
   }
-  
   __syncthreads();
 }
 
@@ -19,21 +17,27 @@ int main() {
   double b = 1.0; // Upper limit of integration
   int n = 100; // Number of intervals
 
+  // Allocate memory
+  double *h_sum = new double[n];
   double *d_sum;
-  cudaMallocManaged((void **)&d_sum, n * sizeof(double));
+  cudaMalloc(&d_sum, n * sizeof(double));
+  cudaMemcpy(d_sum, h_sum, n * sizeof(double), cudaMemcpyHostToDevice);
 
+  // Run Kernel
   integrateKernel<<<1, n>>>(a, b, n, d_sum);
   
-  double *h_sum = new double[n];
+  // Memory from GPU to CPU
   cudaMemcpy(h_sum, d_sum, n * sizeof(double), cudaMemcpyDeviceToHost);
 
+  // Sum values
   double sum = 0.0;
   for (int i = 0; i < n; i++) {
-    sum += d_sum[i];
+    sum += h_sum[i];
   }
+  
+  printf("The integral is: %f\n", sum);
 
   cudaFree(d_sum);
 
-  std::cout << "The integral is: " << sum << std::endl;
   return 0;
 }
