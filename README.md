@@ -5,6 +5,10 @@ Here is the initial outline:
 
 - Overall CUDA Lessons / Explanations
   - The goal is Installation -> Hello World -> MNIST -> More
+- [Algorithms](https://github.com/Kinvert/CUDA-Stuff/tree/master/Algorithms)
+  - [Sorting](https://github.com/Kinvert/CUDA-Stuff/tree/master/Algorithms/Sort)
+    - [Bubble Sort](https://github.com/Kinvert/CUDA-Stuff/tree/master/Algorithms/Sort/Bubble-Sort)
+  - [Monte-Carlo](https://github.com/Kinvert/CUDA-Stuff/tree/master/Algorithms/Monte-Carlo)
 - [Computer Vision](https://github.com/Kinvert/CUDA-Stuff/tree/master/Computer-Vision)
   - Debayering
   - [Gaussian Blur](https://github.com/Kinvert/CUDA-Stuff/tree/master/Computer-Vision/Gaussian-Blur)
@@ -12,14 +16,6 @@ Here is the initial outline:
   - Image Enhancement
   - Image Restoration
   - Image Segmentation
-- Machine Learning and Deep Learning
-  - Neural Network Training and Inference
-  - Data Augmentation
-  - Feature Extraction
-- Math
-  - Matrix Operations
-    - Matrix Addition
-    - Matrix Multiplications
 - Data Analytics
   - Data Mining
   - Data Visualization
@@ -28,6 +24,14 @@ Here is the initial outline:
   - 3D Rendering
   - Video Game Physics
   - Video Game AI
+- Machine Learning and Deep Learning
+  - Neural Network Training and Inference
+  - Data Augmentation
+  - Feature Extraction
+- Math
+  - Matrix Operations
+    - Matrix Addition
+    - Matrix Multiplications
 - Scientific Computing
   - Molecular Dynamics
   - Fluid Dynamics
