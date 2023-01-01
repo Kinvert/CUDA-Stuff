@@ -34,12 +34,16 @@ Here is the initial outline:
   - Data Augmentation
   - Feature Extraction
 - [Math](https://github.com/Kinvert/CUDA-Stuff/tree/master/Math)
+  - [Linear Algebra](https://github.com/Kinvert/CUDA-Stuff/tree/master/Math/Linear-Algebra)
+    - [Matrix Operations](https://github.com/Kinvert/CUDA-Stuff/tree/master/ChatGPT-CUDA_Lessons/060-Matrix-Operations)
+      - [Matrix Addition](https://github.com/Kinvert/CUDA-Stuff/tree/master/ChatGPT-CUDA_Lessons/060-Matrix-Operations/061-Matrix-Addition)
+      - [Matrix Multiplications](https://github.com/Kinvert/CUDA-Stuff/tree/master/ChatGPT-CUDA_Lessons/060-Matrix-Operations/066-Matrix-Multiplication)
+    - [Row Reduction](https://github.com/Kinvert/CUDA-Stuff/tree/master/Math/Linear-Algebra/Row-Reduction)
   - Calculus 1
   - [Calculus 2](https://github.com/Kinvert/CUDA-Stuff/tree/master/Math/Calculus-2)
   - Calculus 3
-  - [Matrix Operations](https://github.com/Kinvert/CUDA-Stuff/tree/master/ChatGPT-CUDA_Lessons/060-Matrix-Operations)
-    - [Matrix Addition](https://github.com/Kinvert/CUDA-Stuff/tree/master/ChatGPT-CUDA_Lessons/060-Matrix-Operations/061-Matrix-Addition)
-    - [Matrix Multiplications](https://github.com/Kinvert/CUDA-Stuff/tree/master/ChatGPT-CUDA_Lessons/060-Matrix-Operations/066-Matrix-Multiplication)
+  - [Numerical](https://github.com/Kinvert/CUDA-Stuff/tree/master/Math/Numerical)
+    - [Least Squares](https://github.com/Kinvert/CUDA-Stuff/tree/master/Math/Numerical/Least-Squares)
 - Scientific Computing
   - Molecular Dynamics
   - Fluid Dynamics
