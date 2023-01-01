@@ -1,9 +1,13 @@
 - Pre-Algebra
 - Algebra
 - Pre-Calculus
-- Linear / Matrix Algebra
+- [Linear / Matrix Algebra](https://github.com/Kinvert/CUDA-Stuff/tree/master/Math/Linear-Algebra)
+  - [Row Reduction](https://github.com/Kinvert/CUDA-Stuff/tree/master/Math/Linear-Algebra/Row-Reduction)
 - Calculus 1
 - [Calculus 2](https://github.com/Kinvert/CUDA-Stuff/tree/master/Math/Calculus-2)
+  - [Numerical Integration](https://github.com/Kinvert/CUDA-Stuff/tree/master/Calculus-2/Numerical-Integration)
 - Calculus 3
+- [Numerical](https://github.com/Kinvert/CUDA-Stuff/tree/master/Numerical)
+  - [Least Squares](https://github.com/Kinvert/CUDA-Stuff/tree/master/Numerical/Least-Squares)
 - Differential Equations
 - Applied Math
