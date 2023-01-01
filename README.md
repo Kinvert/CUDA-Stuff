@@ -24,8 +24,9 @@ Here is the initial outline:
   - Data Mining
   - Data Visualization
   - Big Data Processing
-- Games and Graphics
+- [Games and Graphics](https://github.com/Kinvert/CUDA-Stuff/tree/master/Games-and-Graphics)
   - 3D Rendering
+  - [Perlin Noise](https://github.com/Kinvert/CUDA-Stuff/tree/master/Games-and-Graphics/Perlin-Noise)
   - Video Game Physics
   - Video Game AI
 - Machine Learning and Deep Learning
