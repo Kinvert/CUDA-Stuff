@@ -3,7 +3,7 @@ CUDA Stuff Here
 
 Here is the initial outline:
 
-- [Overall CUDA Lessons / Explanations](https://github.com/Kinvert/CUDA-Stuff/tree/master/ChatGPT-CUDA_Lessons)
+- [ChatGPT CUDA Lessons / Explanations](https://github.com/Kinvert/CUDA-Stuff/tree/master/ChatGPT-CUDA_Lessons)
   - The goal is Installation -> Hello World -> MNIST -> More
   - [Installation](https://github.com/Kinvert/CUDA-Stuff/tree/master/ChatGPT-CUDA_Lessons/000-Installation)
   - [Hello World](https://github.com/Kinvert/CUDA-Stuff/tree/master/ChatGPT-CUDA_Lessons/010-Hello-World)
