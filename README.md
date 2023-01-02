@@ -9,6 +9,8 @@ Here is the initial outline:
   - [Hello World](https://github.com/Kinvert/CUDA-Stuff/tree/master/ChatGPT-CUDA_Lessons/010-Hello-World)
   - [MNIST](https://github.com/Kinvert/CUDA-Stuff/tree/master/ChatGPT-CUDA_Lessons/500-MNIST) (not working yet)
 - [Algorithms](https://github.com/Kinvert/CUDA-Stuff/tree/master/Algorithms)
+  - [Search](https://github.com/Kinvert/CUDA-Stuff/tree/master/Algorithms/Search)
+    - [Linear-Search](https://github.com/Kinvert/CUDA-Stuff/tree/master/Algorithms/Search/Linear-Search)
   - [Sorting](https://github.com/Kinvert/CUDA-Stuff/tree/master/Algorithms/Sort)
     - [Bubble Sort](https://github.com/Kinvert/CUDA-Stuff/tree/master/Algorithms/Sort/Bubble-Sort)
     - [Insertion Sort](https://github.com/Kinvert/CUDA-Stuff/tree/master/Algorithms/Sort/Insertion-Sort)
