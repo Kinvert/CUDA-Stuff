@@ -25,10 +25,6 @@ float dotGridGradient(int ix, int iy, float x, float y)
     // Distance vectors
     float dx = x - (float)ix;
     float dy = y - (float)iy;
-    
-    printf("ix=%d grad=%f\n", ix, gradient[iy][ix+1]);
-    
-    //printf("ix=%d dx=%.3f dy=%.3f rand=%.3f\n", ix, dx, dy, randomFloat());
 
     // Compute the dot-product
     return (dx * gradient[iy][ix] + dy * gradient[iy][ix+1]);
@@ -57,8 +53,6 @@ float perlin(float x, float y)
     n1 = dotGridGradient(x1, y1, x, y);
     ix1 = interpolate(n0, n1, sx);
     value = interpolate(ix0, ix1, sy);
-    
-    printf("n0=%.3f n1=%.3f\n", n0, n1);
 
     return value;
 }
