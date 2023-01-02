@@ -60,7 +60,9 @@ Here is the initial outline:
   - Climate Modeling
   - Finite Element Analysis
 - [Simulations](https://github.com/Kinvert/CUDA-Stuff/tree/master/Simulations)
-  - [Bouncing Balls](https://github.com/Kinvert/CUDA-Stuff/tree/master/Simulations/Bouncing-Balls-1D)
+  - [Bouncing Balls](https://github.com/Kinvert/CUDA-Stuff/tree/master/Simulations/Bouncing-Balls)
+    - [1D](https://github.com/Kinvert/CUDA-Stuff/tree/master/Simulations/Bouncing-Balls/1D)
+    - [2D](https://github.com/Kinvert/CUDA-Stuff/tree/master/Simulations/Bouncing-Balls/2D)
   - [N-Body Problem](https://github.com/Kinvert/CUDA-Stuff/tree/master/Simulations/N-Body-Problem)
   - Particle-in-cell Simulations
   - Monte Carlo Simulations
