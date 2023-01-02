@@ -62,7 +62,7 @@ Here is the initial outline:
 - [Simulations](https://github.com/Kinvert/CUDA-Stuff/tree/master/Simulations)
   - [Bouncing Balls](https://github.com/Kinvert/CUDA-Stuff/tree/master/Simulations/Bouncing-Balls)
     - [1D](https://github.com/Kinvert/CUDA-Stuff/tree/master/Simulations/Bouncing-Balls/1D)
-    - [2D](https://github.com/Kinvert/CUDA-Stuff/tree/master/Simulations/Bouncing-Balls/2D)
+    - [2D](https://github.com/Kinvert/CUDA-Stuff/tree/master/Simulations/Bouncing-Balls/2D) **ANIMATION GIFS**
   - [N-Body Problem](https://github.com/Kinvert/CUDA-Stuff/tree/master/Simulations/N-Body-Problem)
   - Particle-in-cell Simulations
   - Monte Carlo Simulations
