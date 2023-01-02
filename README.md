@@ -29,7 +29,8 @@ Here is the initial outline:
   - Image Enhancement
   - Image Restoration
   - Image Segmentation
-- Data Analytics
+- [Data Analytics](https://github.com/Kinvert/CUDA-Stuff/tree/master/Data-Analytics)
+  - [Data Filtering](https://github.com/Kinvert/CUDA-Stuff/tree/master/Data-Analytics/Data-Filtering)
   - Data Mining
   - Data Visualization
   - Big Data Processing
