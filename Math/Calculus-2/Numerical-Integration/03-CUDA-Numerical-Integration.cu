@@ -1,4 +1,4 @@
-// ChatGPT wasn't really working here so I had to write this
+// ChatGPT Dec 15 Version wasn't really working here so I had to write this
 #include <stdio.h>
 
 __global__ void integrateKernel(double a, double b, int n, double *sum) {

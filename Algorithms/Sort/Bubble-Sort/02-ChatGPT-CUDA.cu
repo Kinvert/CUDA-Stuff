@@ -1,4 +1,4 @@
-// Written by ChatGPT
+// ChatGPT Dec 15 Version wrote this
 #include <cstdio>
 #include <ctime>
 #include <iostream>

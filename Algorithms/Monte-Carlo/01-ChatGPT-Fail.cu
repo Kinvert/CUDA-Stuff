@@ -1,4 +1,4 @@
-// ChatGPT wrote this
+// ChatGPT Dec 15 Version wrote this
 // This does not work due to rand() in kernel
 #include <iostream>
 #include <cstdlib>

@@ -1,4 +1,4 @@
-// ChatGPT wrote this
+// ChatGPT Dec 15 Version wrote this
 #include <iostream>
 #include <cuda_runtime.h>
 #include <curand_kernel.h>

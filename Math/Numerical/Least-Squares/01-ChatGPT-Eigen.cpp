@@ -1,4 +1,4 @@
-// Written by ChatGPT First Try
+// Written by ChatGPT Dec 15 Version First Try
 // I used: g++ 01.cpp -o 1.out -I ~/eigen-3.4.0/
 #include <iostream>
 #include <cmath>

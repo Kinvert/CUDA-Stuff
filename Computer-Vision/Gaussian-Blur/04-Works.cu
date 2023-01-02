@@ -1,4 +1,4 @@
-// ChatGPT was unable to fix this so I finally did
+// ChatGPT Dec 15 Version was unable to fix this so I finally did
 // nvcc ChatGPT-Attempt-04-Works.cu -o 4.out `pkg-config opencv4 --cflags --libs`
 #include <opencv2/opencv.hpp>
 #include <cuda_runtime.h>

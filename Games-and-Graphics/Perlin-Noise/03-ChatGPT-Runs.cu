@@ -1,4 +1,4 @@
-// Written by ChatGPT
+// Written by ChatGPT Dec 15 Version
 #include <cstdlib>
 #include <cmath>
 #include <iostream>

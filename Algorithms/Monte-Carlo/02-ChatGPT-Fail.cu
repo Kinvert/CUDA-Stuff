@@ -1,4 +1,4 @@
-// ChatGPT wrote this
+// ChatGPT Dec 15 Version wrote this
 // Fails due to fand() in estimate_pi kernel
 #include <iostream>
 #include <cuda_runtime.h>

@@ -1,4 +1,4 @@
-// Written by ChatGPT - Fail
+// ChatGPT Dec 15 Version wrote this
 #include <iostream>
 #include <vector>
 #include <cuda_runtime.h>

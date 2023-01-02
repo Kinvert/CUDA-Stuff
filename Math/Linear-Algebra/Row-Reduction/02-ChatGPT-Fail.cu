@@ -1,4 +1,4 @@
-// ChatGPT several tries not working
+// Written by ChatGPT Dec 15 Version
 #include <iostream>
 #include <cuda.h>
 #include <cuda_runtime.h>

@@ -1,3 +1,4 @@
+// Written by ChatGPT Dec 15 Version
 #include <cmath>
 #include <cstdlib>
 #include <cuda_runtime.h>

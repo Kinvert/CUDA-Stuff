@@ -1,4 +1,4 @@
-// Written by ChatGPT First Try
+// ChatGPT Dec 15 Version wrote this First Try
 #include <iostream>
 #include <vector>
 

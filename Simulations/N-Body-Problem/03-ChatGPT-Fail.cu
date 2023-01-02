@@ -1,4 +1,4 @@
-// ChatGPT also wrote this
+// Written by ChatGPT Dec 15 Version
 // This one also does not work
 #include <iostream>
 #include <cmath>

@@ -1,6 +1,13 @@
 # CUDA-Stuff
 CUDA Stuff Here
 
+Generally if ChatGPT wrote the code I'll give it the naming convention:
+- ChatGPT-Works
+- ChatGPT-Runs
+- ChatGPT-Fail
+
+Feel free to take ChatGPT code that doesn't work and try to fix it. I'm leaving in failed attempts since it shows how ChatGPT is doing, and I find it fun sometimes fixing their code.
+
 Here is the initial outline:
 
 - [ChatGPT CUDA Lessons / Explanations](https://github.com/Kinvert/CUDA-Stuff/tree/master/ChatGPT-CUDA_Lessons)

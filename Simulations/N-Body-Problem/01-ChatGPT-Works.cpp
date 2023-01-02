@@ -1,3 +1,4 @@
+// Written by ChatGPT Dec 15 Version
 #include <iostream>
 #include <cmath>
 #include <vector>

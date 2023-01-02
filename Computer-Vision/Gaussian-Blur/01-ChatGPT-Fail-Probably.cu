@@ -1,4 +1,4 @@
-// This was created by ChatGPT
+// Written by ChatGPT Dec 15 Version
 // Most programs here are tested but this one is not
 
 #include <stdio.h>

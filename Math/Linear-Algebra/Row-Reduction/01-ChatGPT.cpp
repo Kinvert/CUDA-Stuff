@@ -1,4 +1,4 @@
-// Written by ChatGPT, First Try!
+// Written by ChatGPT Dec 15 Version First Try
 #include <iostream>
 #include <cmath>
 
