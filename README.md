@@ -8,6 +8,8 @@ Generally if ChatGPT wrote the code I'll give it the naming convention:
 
 Feel free to take ChatGPT code that doesn't work and try to fix it. I'm leaving in failed attempts since it shows how ChatGPT is doing, and I find it fun sometimes fixing their code.
 
+## Outline
+
 Here is the initial outline:
 
 - [ChatGPT CUDA Lessons / Explanations](https://github.com/Kinvert/CUDA-Stuff/tree/master/ChatGPT-CUDA_Lessons)
@@ -30,10 +32,11 @@ Here is the initial outline:
   - Image Restoration
   - Image Segmentation
 - [Data Analytics](https://github.com/Kinvert/CUDA-Stuff/tree/master/Data-Analytics)
+  - Big Data Processing
   - [Data Filtering](https://github.com/Kinvert/CUDA-Stuff/tree/master/Data-Analytics/Data-Filtering)
   - Data Mining
   - Data Visualization
-  - Big Data Processing
+  - Hash Tables
 - [Games and Graphics](https://github.com/Kinvert/CUDA-Stuff/tree/master/Games-and-Graphics)
   - 3D Rendering
   - [Perlin Noise](https://github.com/Kinvert/CUDA-Stuff/tree/master/Games-and-Graphics/Perlin-Noise)
@@ -67,4 +70,15 @@ Here is the initial outline:
   - Particle-in-cell Simulations
   - Monte Carlo Simulations
   - Molecular Dynamics Simulations
-  - Fluid Dynamics Simulations
+  - Fluid Dynamics
+  
+## Useful Links
+
+Looking these up Jan 2 2023 to help people find more good CUDA examples.
+
+- [NVIDIA/cuda-samples](https://github.com/NVIDIA/cuda-samples/tree/master/Samples)
+- [zchee/cuda-sample](https://github.com/zchee/cuda-sample)
+- [Erkaman/Awesome-CUDA](https://github.com/Erkaman/Awesome-CUDA)
+- [CodedK/CUDA-by-Example-source...](https://github.com/CodedK/CUDA-by-Example-source-code-for-the-book-s-examples-)
+- [NVIDIA/thrust](https://github.com/NVIDIA/thrust)
+- [NVIDIA/CUDALibrarySamples](https://github.com/NVIDIA/CUDALibrarySamples)
