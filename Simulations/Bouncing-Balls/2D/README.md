@@ -12,4 +12,4 @@ For these animations, the jpgs were later created in to gifs.
 
 04-gave up on ChatGPT:
 
-<img src="https://github.com/Kinvert/Cuda-Stuff/blob/master/Simulations/Bouncing-Balls/2D/04-ChatGPT-Result.gif" width="480" height="360"/>
+<img src="https://github.com/Kinvert/Cuda-Stuff/blob/master/Simulations/Bouncing-Balls/2D/04-Result.gif" width="480" height="360"/>
