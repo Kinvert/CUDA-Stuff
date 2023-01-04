@@ -1,5 +1,16 @@
 # CUDA-Stuff
+
 CUDA Stuff Here
+
+## Goal
+
+To make a great reference for CUDA code that can take advantage of parallel computing on GPUs.
+
+Hopefully this is a place people can grab reference code, learn, and practice.
+
+For example, I leave in any failed code (and mark it as such) so people can practice troubleshooting CUDA code.
+
+[ChatGPT Code to Practice Fixing](https://github.com/Kinvert/CUDA-Stuff/search?q=filename%3A*ChatGPT-Fail)
 
 Generally if ChatGPT wrote the code I'll give it the naming convention:
 - ChatGPT-Works
