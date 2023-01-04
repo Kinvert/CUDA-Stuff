@@ -1,0 +1,40 @@
+# Machine Learning With CUDA and C++
+
+- Neural network training and inference
+  - Feedforward neural networks
+    - Forward pass
+    - Backward pass
+  - Convolutional neural networks (CNNs)
+    - Forward pass
+    - Convolutional layer
+    - Activation layer
+    - Pooling layer
+    - Fully connected layer
+  - Backward pass
+    - Backpropagation through time (BPTT)
+    - Gradient descent
+    - Stochastic gradient descent (SGD)
+    - Mini-batch gradient descent
+    - Adam optimization
+    - Momentum
+  - Recurrent neural networks (RNNs)
+    - Forward pass
+      - Simple RNN
+      - LSTM
+      - GRU
+    - Backward pass
+      - BPTT
+      - Truncated BPTT
+      - Gradient clipping
+  - Transfer learning
+  - Fine-tuning
+- Data augmentation
+  - Definition and purpose of data augmentation
+  - Techniques for augmenting data in machine learning
+  - Examples of data augmentation in image classification and object detection
+  - Best practices for data augmentation in deep learning
+- Feature extraction
+  - Definition and purpose of feature extraction
+  - Techniques for extracting features from data
+  - Examples of feature extraction in image classification and object detection
+  - Best practices for feature extraction in deep learning
