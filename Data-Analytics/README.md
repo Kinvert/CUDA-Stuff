@@ -15,3 +15,12 @@ Data mining: Extracting meaningful patterns and insights from large datasets.
 To get started with these programs and examples, you will need a CUDA-capable GPU and the CUDA toolkit installed on your system. Some of the programs and examples may also require additional libraries or frameworks, such as cuDF or cuML.
 
 I hope these programs and examples are helpful in learning how to use CUDA for data analytics! Let me know if you have any questions.
+
+## Potential Future Outline
+
+- Data filtering
+- Data aggregation
+- Data transformation
+- Data sorting
+- Data search
+- Data joining
