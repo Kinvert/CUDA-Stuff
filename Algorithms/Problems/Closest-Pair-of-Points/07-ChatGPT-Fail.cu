@@ -23,20 +23,18 @@ __device__ double dist(Point a, Point b) {
 
 __global__ void closest_pair_kernel(Point *p, double *res) {
     int idx = threadIdx.x + blockIdx.x * blockDim.x;
-    double d = *res;
-    for (int i = 0; i < N; i++) {
-        if (idx == i) continue;
-        d = min(d, dist(p[idx], p[i]));
-    }
-    atomicMin(res, d);
+    int idy = threadIdx.y + blockIdx.y * blockDim.y;
+    if (idx >= N || idy >= N) return;
+    double d = dist(p[idx], p[idy]);
+    if (d < *res) *res = d;
 }
 
 double closest_pair(Point *p) {
-    double res;
-    cudaMemcpyToSymbol(p, p, sizeof(Point) * N);
-    cudaMemcpyToSymbol(&res, &res, sizeof(double));
-    closest_pair_kernel<<<(N + 255) / 256, 256>>>(p, &res);
+    double res = DBL_MAX;
+    cudaMemcpy(p, p, sizeof(Point) * N, cudaMemcpyHostToDevice);
+    closest_pair_kernel<<<(N + 31) / 32, 32, 32>>>(p, &res);
     cudaDeviceSynchronize();
+    cudaMemcpy(&res, &res, sizeof(double), cudaMemcpyDeviceToHost);
     return res;
 }
 

@@ -28,15 +28,15 @@ __global__ void closest_pair_kernel(Point *p, double *res) {
         if (idx == i) continue;
         d = min(d, dist(p[idx], p[i]));
     }
-    if(d<*res) *res=d;
+    atomicMin(res, d);
 }
 
 double closest_pair(Point *p) {
-    double res=DBL_MAX;
-    cudaMemcpy(p, p, sizeof(Point) * N, cudaMemcpyHostToDevice);
+    double res;
+    cudaMemcpyToSymbol(p, p, sizeof(Point) * N);
+    cudaMemcpyToSymbol(&res, &res, sizeof(double));
     closest_pair_kernel<<<(N + 255) / 256, 256>>>(p, &res);
     cudaDeviceSynchronize();
-    cudaMemcpy(&res, &res, sizeof(double), cudaMemcpyDeviceToHost);
     return res;
 }
 
