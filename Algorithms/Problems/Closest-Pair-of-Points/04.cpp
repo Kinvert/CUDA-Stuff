@@ -52,7 +52,9 @@ int main() {
     printf("Result = %.3f\n", res);
     cv::namedWindow("Largest empty circle", cv::WINDOW_NORMAL);
     cv::imshow("Largest empty circle", image);
+    cv::imwrite("04-Result.png", image);
     cv::waitKey(0); // wait for a key press to exit
+    
     return 0;
 }
 
