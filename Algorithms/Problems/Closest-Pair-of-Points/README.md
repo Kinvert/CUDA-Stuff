@@ -6,4 +6,4 @@ This one was really frustrating trying to use ChatGPT so I just gave up on it an
 
 Gave up on ChatGPT and wrote 03 and this one also.
 
-![04 Results](04-Results.png?raw=true "04 Results")
+![04 Results](04-Result.png?raw=true "04 Result")
