@@ -71,6 +71,8 @@ Here is the initial outline:
   - Calculus 3
   - [Numerical](https://github.com/Kinvert/CUDA-Stuff/tree/master/Math/Numerical)
     - [Least Squares](https://github.com/Kinvert/CUDA-Stuff/tree/master/Math/Numerical/Least-Squares)
+- [Mesh](https://github.com/Kinvert/CUDA-Stuff/tree/master/Mesh)
+  - [Delaunay Triangulation](https://github.com/Kinvert/CUDA-Stuff/tree/master/Mesh/Delaunay-Triangulation)
 - Scientific Computing
   - Molecular Dynamics
   - Fluid Dynamics
