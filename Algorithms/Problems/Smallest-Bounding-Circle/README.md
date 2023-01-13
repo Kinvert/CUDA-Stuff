@@ -18,4 +18,10 @@ I specifically wanted the dots to be in the central 200X200 area of the 280X280 
 
 Fail
 
+## 05 CUDA
 
+![05 Results](05-Result.png?raw=true "05 Result")
+
+## 06 CUDA
+
+I keep trying to get ChatGPT to fix it but it just won't work.
