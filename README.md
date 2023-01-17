@@ -98,3 +98,4 @@ Looking these up Jan 2 2023 to help people find more good CUDA examples.
 - [CodedK/CUDA-by-Example-source...](https://github.com/CodedK/CUDA-by-Example-source-code-for-the-book-s-examples-)
 - [NVIDIA/thrust](https://github.com/NVIDIA/thrust)
 - [NVIDIA/CUDALibrarySamples](https://github.com/NVIDIA/CUDALibrarySamples)
+- [Magma](https://github.com/CEED/MAGMA)
