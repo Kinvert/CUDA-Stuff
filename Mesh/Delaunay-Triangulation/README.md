@@ -4,6 +4,12 @@
 
 ![01 Results](01-Result.png?raw=true "01 Result")
 
+## 04
+
+This one exports a CSV so we can do other mesh algorithms after loading this as the initial mesh.
+
+delaynay_edges.csv is where the edges are stored.
+
 ## ChatGPT Other Ideas
 
 ChatGPT:
