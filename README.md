@@ -82,11 +82,11 @@ Here is the initial outline:
   - [Bouncing Balls](https://github.com/Kinvert/CUDA-Stuff/tree/master/Simulations/Bouncing-Balls)
     - [1D](https://github.com/Kinvert/CUDA-Stuff/tree/master/Simulations/Bouncing-Balls/1D)
     - [2D](https://github.com/Kinvert/CUDA-Stuff/tree/master/Simulations/Bouncing-Balls/2D) **ANIMATION GIFS**
+  - [Fluid Dynamics](https://github.com/Kinvert/CUDA-Stuff/tree/master/Simulations/Fluid-Dynamics)
   - [N-Body Problem](https://github.com/Kinvert/CUDA-Stuff/tree/master/Simulations/N-Body-Problem)
   - Particle-in-cell Simulations
   - Monte Carlo Simulations
   - Molecular Dynamics Simulations
-  - Fluid Dynamics
   
 ## Useful Links
 
