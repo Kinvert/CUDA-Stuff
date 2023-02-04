@@ -75,7 +75,6 @@ Here is the initial outline:
   - [Delaunay Triangulation](https://github.com/Kinvert/CUDA-Stuff/tree/master/Mesh/Delaunay-Triangulation)
 - Scientific Computing
   - Molecular Dynamics
-  - Fluid Dynamics
   - Climate Modeling
   - Finite Element Analysis
 - [Simulations](https://github.com/Kinvert/CUDA-Stuff/tree/master/Simulations)
